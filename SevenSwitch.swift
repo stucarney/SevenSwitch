@@ -207,8 +207,12 @@ import QuartzCore
     */
     open var offLabel: UILabel!
     
+    /*
+     *	The background view that the switch is drawn on top of
+     */
+    open var backgroundView: UIView!
+    
     // internal
-    internal var backgroundView: UIView!
     internal var thumbView: UIView!
     internal var onImageView: UIImageView!
     internal var offImageView: UIImageView!
